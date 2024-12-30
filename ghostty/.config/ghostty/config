@@ -1,0 +1,24 @@
+# fonts
+font-family = JetBrainsMono Nerd Font Mono
+font-size = 10
+
+theme = light:GruvboxLight,dark:GruvboxDarkHard
+
+mouse-hide-while-typing = true
+mouse-scroll-multiplier = 1.5
+title = Gozman's Ghostty!
+
+window-padding-x = 4
+window-padding-y = 0
+window-padding-balance = false
+window-inherit-working-directory = true
+window-inherit-font-size = true
+# window-decoration = false
+window-theme = system
+window-colorspace = display-p3
+window-save-state = always
+window-new-tab-position = current
+
+gtk-titlebar = true
+bold-is-bright = true
+

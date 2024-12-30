@@ -1,0 +1,47 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      // Open Recent Projects
+      "ctrl-r": "projects::OpenRecent",
+
+      // Right Dock
+      "ctrl-b": "workspace::ToggleRightDock",
+
+      // Left Dock
+      "ctrl-alt-b": "workspace::ToggleLeftDock",
+
+      // Bottom Dock
+      "ctrl-j": "workspace::ToggleBottomDock"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-shift-up": "editor::AddSelectionAbove", // Insert Cursor Above
+      "ctrl-shift-down": "editor::AddSelectionBelow", // Insert Cursor Below
+      "shift-alt-up": "editor::DuplicateLineUp",
+      "shift-alt-down": "editor::DuplicateLineDown",
+      "ctrl-i": "editor::ShowCompletions"
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      // "ctrl-space-a ctrl-space-w": "workspace::CloseInactiveTabsAndPanes"
+    }
+  },
+  {
+    "context": "ContextEditor > Editor",
+    "bindings": {
+      "ctrl-shift-r": "assistant::CycleMessageRole"
+    }
+  }
+]

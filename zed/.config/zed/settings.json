@@ -1,0 +1,82 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette
+{
+  "base_keymap": "VSCode",
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Monospace dark"
+  },
+  // "buffer_font_family": "DepartureMono Nerd Font",
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "buffer_font_weight": 700,
+  "buffer_font_fallbacks": ["JetBrains Mono", "Zed Plex Mono"],
+  "buffer_font_size": 13,
+  "ui_font_family": "JetBrainsMono Nerd Font",
+  "ui_font_weight": 700,
+  "ui_font_fallbacks": ["JetBrains Mono", "Zed Plex Mono"],
+  "ui_font_features": {
+    "calt": true
+  },
+  "ui_font_size": 14,
+  "when_closing_with_no_tabs": "keep_window_open",
+  "soft_wrap": "editor_width",
+  "project_panel": {
+    "default_width": 280,
+    "dock": "right",
+    "auto_fold_dirs": false
+  },
+  "outline_panel": {
+    "dock": "right",
+    "auto_fold_dirs": false
+  },
+  "chat_panel": {
+    "dock": "left",
+    "default_width": 280
+  },
+  "notification_panel": {
+    "dock": "left",
+    "default_width": 320
+  },
+  "assistant": {
+    "version": "2",
+    "dock": "bottom",
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-3-5-sonnet"
+    }
+  },
+  "autosave": "on_focus_change",
+  "tabs": {
+    "git_status": true,
+    "file_icons": true
+  },
+  "extend_comment_on_newline": false,
+  "journal": {
+    "hour_format": "hour24"
+  },
+  "prettier": {
+    "allowed": true,
+    "semi": true,
+    "printWidth": 80,
+    "tabWidth": 2,
+    "useTabs": false,
+    "singleQuote": false,
+    "bracketSameLine": false,
+    "arrowParens": "always",
+    "endOfLine": "lf"
+  },
+  "lsp": {
+    "wakatime": {
+      "settings": {
+        "api-key": "waka_c9454fc2-a1a7-407b-97d6-6e7bbbb112b6"
+      }
+    }
+  }
+}
