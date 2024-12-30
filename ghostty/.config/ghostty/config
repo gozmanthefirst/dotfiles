@@ -5,8 +5,9 @@ font-size = 10
 theme = light:GruvboxLight,dark:GruvboxDarkHard
 
 mouse-hide-while-typing = true
-mouse-scroll-multiplier = 1.5
-title = Gozman's Ghostty!
+# title = Gozman's Ghostty!
+
+adjust-cell-height = 3
 
 window-padding-x = 4
 window-padding-y = 0
@@ -19,6 +20,7 @@ window-colorspace = display-p3
 window-save-state = always
 window-new-tab-position = current
 
-gtk-titlebar = true
+# gtk-titlebar = false
+gtk-wide-tabs = false
+adw-toolbar-style = flat
 bold-is-bright = true
-
