@@ -19,11 +19,14 @@ window-theme = system
 window-colorspace = display-p3
 window-new-tab-position = current
 
+# gtk-titlebar = true
+gtk-tabs-location = hidden
 adw-toolbar-style = flat
 bold-is-bright = true
 
 # keybindings
 keybind = ctrl+shift+f1=toggle_window_decorations
+keybind = ctrl+shift+home=toggle_tab_overview
 
 # splits
 keybind = ctrl+n>ctrl+s>ctrl+right=new_split:right
