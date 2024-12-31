@@ -1,26 +1,42 @@
-# fonts
-font-family = JetBrainsMono Nerd Font Mono
+# options
+font-family = JetBrainsMono Nerd Font
 font-size = 10
 
 theme = light:GruvboxLight,dark:GruvboxDarkHard
+background-opacity = 0.9
+title = 👻
+adjust-cell-height = 15%
 
 mouse-hide-while-typing = true
-# title = Gozman's Ghostty!
+mouse-scroll-multiplier = 2
 
-adjust-cell-height = 3
-
-window-padding-x = 4
-window-padding-y = 0
-window-padding-balance = false
+# window-padding-x = 0
+# window-padding-y = 0
+window-padding-balance = true
 window-inherit-working-directory = true
-window-inherit-font-size = true
-# window-decoration = false
+window-decoration = false
 window-theme = system
 window-colorspace = display-p3
-window-save-state = always
 window-new-tab-position = current
 
-# gtk-titlebar = false
-gtk-wide-tabs = false
 adw-toolbar-style = flat
 bold-is-bright = true
+
+# keybindings
+keybind = ctrl+shift+f1=toggle_window_decorations
+
+# splits
+keybind = ctrl+n>ctrl+s>ctrl+right=new_split:right
+keybind = ctrl+n>ctrl+s>ctrl+down=new_split:down
+
+keybind = super+alt+enter=equalize_splits
+
+keybind = super+alt+k=resize_split:up,10
+keybind = super+alt+h=resize_split:left,10
+keybind = super+alt+j=resize_split:down,10
+keybind = super+alt+l=resize_split:right,10
+
+keybind=shift+alt+up=goto_split:top
+keybind=shift+alt+left=goto_split:left
+keybind=shift+alt+down=goto_split:bottom
+keybind=shift+alt+right=goto_split:right
