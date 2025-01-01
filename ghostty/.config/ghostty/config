@@ -3,23 +3,22 @@ font-family = JetBrainsMono Nerd Font
 font-size = 10
 
 theme = light:GruvboxLight,dark:GruvboxDarkHard
-background-opacity = 0.9
+background-opacity = 0.925
 title = 👻
 adjust-cell-height = 15%
 
 mouse-hide-while-typing = true
 mouse-scroll-multiplier = 2
 
-# window-padding-x = 0
-# window-padding-y = 0
+window-padding-x = 2
 window-padding-balance = true
+window-padding-color = extend
 window-inherit-working-directory = true
-window-decoration = false
-window-theme = system
-window-colorspace = display-p3
+window-decoration = true
+window-theme = ghostty
 window-new-tab-position = current
 
-# gtk-titlebar = true
+gtk-titlebar = false
 gtk-tabs-location = hidden
 adw-toolbar-style = flat
 bold-is-bright = true
