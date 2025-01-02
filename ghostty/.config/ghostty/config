@@ -2,7 +2,7 @@
 font-family = JetBrainsMono Nerd Font
 font-size = 10
 
-theme = light:flexoki-light,dark:flexoki-dark
+theme = light:GruvboxLightHard,dark:GruvboxDarkHard
 background-opacity = 0.925
 title = 👻
 adjust-cell-height = 15%
