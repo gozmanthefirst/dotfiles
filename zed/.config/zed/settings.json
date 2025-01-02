@@ -11,9 +11,8 @@
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "Monospace dark"
+    "dark": "Gruvbox Dark Hard"
   },
-  // "buffer_font_family": "DepartureMono Nerd Font",
   "buffer_font_family": "JetBrainsMono Nerd Font",
   "buffer_font_weight": 700,
   "buffer_font_fallbacks": ["JetBrains Mono", "Zed Plex Mono"],
