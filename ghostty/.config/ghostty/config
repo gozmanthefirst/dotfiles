@@ -18,7 +18,7 @@ window-decoration = true
 window-theme = ghostty
 window-new-tab-position = current
 
-gtk-titlebar = false
+# gtk-titlebar = false
 gtk-tabs-location = hidden
 adw-toolbar-style = flat
 bold-is-bright = true
